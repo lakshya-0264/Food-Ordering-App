@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #e9e8f1;
+    color: #f0f6f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Restaurant Header CSS */
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: peachpuff;*/
+    background-color: rgb(255, 150, 60);
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logoText{
+    width: 200px;
+    height: 110px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.nav-items>ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-items > ul > li {
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-items > ul > li:hover {
+    color: #db3434;
+}
+
+.login{
+    padding: 8px 15px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: red;
+    background-color: #250808;
+    transition: background-color 0.3s ease, border 0.3s ease, transform 0.2s ease;
+}
+
+.login:hover{
+    color: #f0f6f2;
+    background-color: #250808;
+    transform: scale(1.10);
+}
+
+.login:active {
+    transform: scale(0.95);
+}
+
+/* Restaurant Body CSS */
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.res-card{
+    width: 225px;
+    padding: 10px;
+    background-color: #250808;
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    transform: scale(1.05);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.res-logo {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.filter{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    margin: 10px;
+}
+
+.search, .filter-btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 4px solid #250808;
+    background-color: #e9e8f1;
+    border-radius: 7.5px;
+    transition: border-color 2s ease, box-shadow 2s ease;
+}
+
+.search-btn{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+.filter-btn:hover, .search-btn:hover {
+    transform: scale(1.05);
+    background-color: #250808;
+    color: #e9e8f1;
+}
+
+.res-logo{
+    width:100%;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    padding:5px;
+    width:200px;
+    height:400px; 
+    margin: 10px 10px;
+    background-color: #afabab;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "Food Ordering App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "build parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshya-0264/Food-Ordering-App.git"
+  },
+  "keywords": [
+    "ReactJs"
+  ],
+  "author": "Lakshya S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshya-0264/Food-Ordering-App/issues"
+  },
+  "homepage": "https://github.com/lakshya-0264/Food-Ordering-App#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlists": [
+    "last 2 chrome versions",
+    "last 2 edge versions"
+  ]
+}
